@@ -9,7 +9,7 @@
     <a-scene>
       <!-- ASSETS: Carga del modelo 3D -->
       <a-assets>
-        <a-asset-item id="robot" src="Grupo1.glb"></a-asset-item>
+        <a-asset-item id="ciudad" src="Grupo1.glb"></a-asset-item>
       </a-assets>
 
       <!-- Robot 3D -->
