@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bach</title>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- ASSETS: Carga del modelo 3D -->
+      <a-assets>
+        <a-asset-item id="robot" src="Grupo2.glb"></a-asset-item>
+      </a-assets>
+
+      <!-- Robot 3D -->
+      <a-entity gltf-model="#robot" position="0 0 -3" scale="1 1 1" rotation="0 0 0"></a-entity>
+      
+      <!-- Cielo -->
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
